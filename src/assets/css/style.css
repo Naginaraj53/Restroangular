@@ -1,0 +1,1495 @@
+/*Template Name:Eatry
+File Name:style.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/*/
+
+/* FONTS*/
+@import '../fonts/font-awesome-4.7.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma');
+/*font-family: 'Baloo Tamma', cursive;*/
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 13px;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+a {
+    color: inherit;
+}
+a:hover,
+a:active,
+a:focus {
+    color: inherit;
+    outline: none !important;
+    text-decoration: none;
+}
+ul , li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*::-moz-selection {
+    background-color: #f75940;
+    color: #ffffff;
+}
+
+::selection{
+    background-color: #f75940;
+    color: #ffffff;
+}
+
+/*typography*/
+body {
+    margin: 0;
+    color: #000;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+/*End typography*/
+
+/*Spacing Value*/
+.tv-offspace-top-20 
+{
+    margin-top:20px;
+}
+.tv-offspace-top-30 {
+    margin-top: 30px;
+}
+.tv-offspace-top-40 {
+    margin-top: 40px;
+}
+.tv-offspace-top-50 {
+    margin-top: 50px;
+}
+
+.tv-offspace-bottom-20
+{
+    margin-bottom:20px;
+}
+.tv-offspace-bottom-30
+{
+    margin-bottom: 30px;
+}
+.tv-offspace-bottom-40
+{
+    margin-bottom: 40px;    
+}
+.tv-offspace-bottom-50
+{
+    margin-bottom: 50px;
+}
+/*Width-100*/
+.width-100
+{
+    width:100%;
+}
+
+/*Padding-0*/
+.padding-0{
+    padding:0;
+}
+
+/*Section Padding*/
+.tv-section-padding{
+    padding-top: 80px;
+}
+.tv-section-padding-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.tv-section-footer-padding
+{
+    padding-top: 40px;
+}
+/*Section Padding End Here*/
+
+/*Header CSS*/
+
+/*Top Header CSS*/
+.tv-header-top
+{
+    background: #222222 none repeat scroll 0 0;
+    padding:10px;
+}
+.tv-headertop-details p {
+    display: inline-block;
+    color:#ffffff;
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-headertop-details i {
+    color: #8e9296;
+    margin-right: 10px;
+}
+.tv-headertop-details a {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-headertop-details a:hover {
+    color: #f75940;
+}
+.tv-header-social ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px;
+    text-align: center;
+    width: 40px;
+}
+.tv-header-social ul li {
+    display: inline;
+}
+.tv-header-social
+{
+    float: right;
+}
+.tv-booktable-button {
+    float: right;
+    padding: 5px 0;
+}
+.tv-header-social ul li a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #f75940;
+}
+.tv-booktable-button a {
+    background: #f75940 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    text-transform: capitalize;
+}
+.tv-headertop-details {
+    line-height: 30px;
+}
+.tv-booktable-button a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #f75940;
+}
+/*End Top Header CSS*/
+
+/*Navigation Bar CSS*/
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+{
+    color:#ffffff;
+}
+.navbar-default .navbar-brand
+{
+    color:#ffffff;
+}
+.tv-menu {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #222222;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #f75940;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #f75940;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+.tv-navbar-custom
+{
+    border: medium none;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.tv-drop-menu.open > a, .tv-drop-menu.open > a:focus, .tv-drop-menu.open > a:hover {
+    background-color: transparent !important;
+    color: #f75940 !important;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: #f75940;
+    color: #ffffff;
+    text-decoration: none;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    margin:0 !important;
+    left: 100%;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.tv-sub-menu {
+    background:#222222;
+    box-shadow: none;
+    min-width: 200px;
+    padding: 0;
+    left:15px;
+    margin-top:7px !important;
+    border-radius: 0;
+    border:0;
+}
+/*.tv-sub-menu li a {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1px;
+    padding:18px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}*/
+.tv-sub-menu li a {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1px;
+    padding: 18px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.tv-drop-menu a > i {
+    margin-left: 5px;
+    line-height: 0;
+    transition: all 0.25s ease-out 0s;
+}
+.fa-sm {
+    margin-right: 10px;
+}
+.Navigation-list {
+    display: block !important;
+}
+.Navigation-list.is-hidden {
+    display: none !important;
+}
+.tv-drop-menu.open a i {
+    transform: translateY(3px);
+    transition: all 0.25s ease-out 0s;
+}
+/*End Navigation Bar CSS*/
+
+/*Banner CSS*/
+.tv-banner-image
+{
+    width: 100%;
+    position: relative;
+    min-height:599px;
+}
+.tv-banner-info
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.tv-banner-info h1{
+    position: relative;
+}
+/*.tv-banner-info h1::before {
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin-left: -120px;
+    position: absolute;
+    top:50%;
+    width: 100px;
+}
+.tv-banner-info h1::after {
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin-left: 20px;
+    position: absolute;
+    top:50%;
+    width: 100px;
+}*/
+.tv-bg-black
+{
+    background: #000000;
+}
+.tv-opacity-medium
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    opacity: 0.7;
+}
+.tv-banner-info h2 {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-banner-info h1 {
+    color: #f75940;
+    font-family: "Baloo Tamma",cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.tv-banner-info p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-banner-info h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+/*End Banner CSS*/
+
+/*End Header CSS*/
+
+/*Tastes CSS*/
+.tv-tastes-info {
+    padding: 150px 30px;
+    text-align: center;
+}
+.tv-tastes-info > p {
+    color: #f75940;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-tastes-imgtitle {
+    background: #f75940 none repeat scroll 0 0;
+    outline: 1px solid #ffffff;
+    outline-offset: -10px;
+    padding: 40px 10px;
+    position: relative;
+    text-align: center;
+}
+.tv-tastes-imgtitle h3::before {
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    margin-right: 15px;
+    width: 50px;
+}
+.tv-tastes-imgtitle h3::after {
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    margin-left: 10px;
+    width: 50px;
+}
+.tv-tastes-imgtitle > p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-tastes-imgtitle h3 {
+    color: #ffffff;
+    font-family: "Baloo Tamma",cursive;
+    text-transform: uppercase;
+}
+.tv-section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tv-section-title h3{
+    font-family: "Baloo Tamma",cursive;
+    text-transform: uppercase;
+}
+.tv-section-title > p
+{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#f75940;
+}
+.tv-section-title h3::before {
+    background: #222222 none repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    margin-right: 15px;
+    width: 50px;
+}
+.tv-section-title h3::after {
+    background: #222222 none repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    margin-left: 10px;
+    width: 50px;
+}
+.tv-tastes-block > p {
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tv-eatry-button > a , .tv-eatry-button button {
+    border: 1px solid #222222;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    transition: transform 0.25s ease 0s;
+    background-color: transparent;
+}
+.tv-eatry-button a , .tv-eatry-button button {
+    display: inline-block;
+}
+.tv-eatry-button a span , .tv-eatry-button button span {
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+    transition: transform 0.25s ease 0s;
+    display: inline-block;
+    position: relative;
+    transform: translateZ(0px);
+}
+.tv-eatry-button a:hover span , .tv-eatry-button button:hover span
+{
+    transform: translateX(5px);
+}
+.tv-eatry-button > a:hover , .tv-eatry-button button:hover {
+    background: #f75940 none repeat scroll 0 0;
+    border: 1px solid #f75940;
+    color: #ffffff;
+}
+.tv-tastes-block
+{
+    padding:80px 0;
+}
+/*End Tastes CSS*/
+
+/*Services CSS*/
+.tv-service-content h4 {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#f75940;
+    text-transform: uppercase;
+}
+.tv-service-content > p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin:20px 0 30px 0;
+}
+.tv-service-content {
+    margin-bottom:50px;
+}
+/*End Services CSS*/
+
+/*Find CSS*/
+.tv-find-details {
+    background: #f3f4f4 none repeat scroll 0 0;
+    border-top: 4px solid #f75940;
+    color: #1e1e1f;
+    margin: -120px auto auto;
+    padding: 80px 50px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 85%;
+    z-index: 1;
+    text-align: center;
+}
+.tv-find-details > h4 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-find-details > h3 {
+    font-family: "Baloo Tamma",cursive;
+    font-size: 31px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.tv-find-details > p {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.tv-find-details:hover {
+    background: #f75940 none repeat scroll 0 0;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.tv-find-details:hover a
+{
+    border-color:#ffffff;
+}
+.tv-find-details:hover span
+{
+    transform: translateX(5px);
+}
+.tv-bg-white
+{
+    background: #ffffff;
+}
+.tv-whiteopacity-medium
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    opacity: 0.9;
+}
+.tv-fixed-img {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+/*End Find CSS*/
+
+/*Comming Event CSS*/
+.tv-eventcomming-date {
+    border: 1px solid #222222;
+    padding: 30px 20px;
+    text-align: center;
+    width: 150px;
+}
+.tv-eventcomming-date > span {
+    font-size:50px;
+    font-weight: 700;
+}
+.tv-eventcomming-date > p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-eventcomming-details a {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-eventcomming-details h4
+{
+    margin-bottom:15px;
+}
+.tv-eventcomming-address::after {
+    background: #f75940 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+.tv-eventcomming-address{
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.tv-eventcomming-content
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.tv-eventcomming-block
+{
+    border-bottom: 1px solid #c3c3c4;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+    padding:0 0 60px 0;
+}
+.tv-eventcomming-block:last-child {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+}
+/*End Comming Event CSS*/
+
+/*Chef CSS*/
+.tv-chef-details:hover .tv-chef-social{
+    right: 0;
+    transform: scale(1);
+}
+.tv-chef-social {
+    height: 220px;
+    margin-top: -110px;
+    position: absolute;
+    right: -25%;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+    width: 50px;
+    z-index: 9;
+}
+.tv-chef-details:hover .tv-chef-img::after {
+    opacity: 0.7;
+}
+.tv-chef-img::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.tv-chef-social ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 100%;
+    padding-top: 15px;
+    width: 100%;
+}
+.tv-chef-social ul li a:hover {
+    color: #f75940;
+}
+.owl-prev {
+    border: 0 solid black;
+    left: -5%;
+    position: absolute;
+    top: 50%;
+    display: block !important;
+    transform: translateY(-50%);
+}
+.owl-next {
+    border: 0 solid black;
+    position: absolute;
+    right: -5%;
+    top:50%;
+    display: block !important;
+    transform: translateY(-50%);
+}
+.owl-next > img , .owl-prev > img {
+    width: 30px;
+}
+/*End Chef CSS*/
+
+/*Menu CSS*/
+.tv-mb-30 {
+    margin-bottom: 30px;
+}
+.tv-filter-wrapper h5 {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.portfolio-filter {
+    display: inline-block;
+}
+.portfolio-filter button.active {
+    background: #f75940 none repeat scroll 0 0;
+    border-color: #f75940;
+    color: #fff;
+}
+.portfolio-filter button {
+    border: 1px solid;
+    color: #1e1e1f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 2px;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    background: transparent;
+}
+.portfolio-grid {
+    float: left;
+    width: 100%;
+}
+.tv-single-portfolio {
+    color: #fff;
+    display: block;
+    position: relative;
+}
+.tv-menu-details h4 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom:10px;
+}
+.tv-menu-details p small {
+    display: inline-block;
+    width: 30%;
+}
+.menu-speacification {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.media-left, .media > .pull-left {
+    padding-right:30px;
+}
+.menu-price {
+    color: #f75940;
+    float: right;
+    font-weight: 800;
+}
+/*End Menu CSS*/
+
+/*Gallery CSS*/
+.tv-gallery-block
+{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.tv-gallery-details
+{
+    padding: 0 50px 0 50px;
+    vertical-align: middle;
+    width:25%;
+    display: table-cell;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.tv-gallery-media
+{
+    vertical-align: bottom;
+    display: table-cell;
+    width: 75%;
+}
+.tv-gallery-info > p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.tv-gallery-img:hover .tv-gallery-subtitle{
+    right: 0;
+    transform: scale(1);
+}
+.tv-gallery-subtitle {
+    position: absolute;
+    right: -25%;
+    top: 10%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+    width: 50%;
+    z-index: 9;
+}
+.tv-gallery-img:hover .tv-gallery-link::after {
+    opacity: 0.7;
+}
+.tv-gallery-link::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.tv-gallery-subtitle > h4 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.tv-gallery-subtitle > h4:hover {
+    color: #f75940;
+}
+.tv-gallery-bgcolor
+{
+    background-color: #f7f7f7;
+}
+#galleryowl.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f75940 none repeat scroll 0 0;
+}
+#galleryowl.owl-theme .owl-dots .owl-dot span {
+    background: #222222 none repeat scroll 0 0;
+}
+/*End Gallery CSS*/
+
+/*Testinominal CSS*/
+.tv-testinominal-block
+{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.tv-testinominal-img
+{
+    width:50%;
+    display: table-cell;
+}
+.tv-testinominal-details {
+    background-color: #f7f7f7;
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+.tv-testinominal-info > p {
+    color: #a7a9ac;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 16px 0 0;
+    padding: 0 50px;
+    text-align: center;
+}
+.tv-testinominal-info > h4 {
+    margin: 20px 0 0;
+    text-align: center;
+}
+.tv-testinominal-name {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#f75940;
+}
+.tv-testinominal-job:before
+{
+    content: "/";
+    margin-right: 8px;
+}
+.tv-testinominal-job {
+    color: #636363;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-testinominal-subimg img {
+    margin: 20px auto;
+    text-align: center;
+    width: 66px !important;
+}
+#testinominalowl.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f75940 none repeat scroll 0 0;
+}
+#testinominalowl.owl-theme .owl-dots .owl-dot span {
+    background: #222222 none repeat scroll 0 0;
+}
+/*End Testinominal CSS*/
+
+/*Blog CSS*/
+.tv-blog-details
+{
+    background: #fff none repeat scroll 0 0;
+    margin: auto auto -150px;
+    padding: 30px;
+    transform: translateY(-150px);
+    width: 85%;
+    border-top: 4px solid #f75940;
+    text-align: center;
+}
+.tv-blog-details > h3 {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: "Baloo Tamma",cursive;
+    font-size:22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-blog-details > h3::after {
+    background: #f75940 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    width: 100px;
+}
+.tv-block-bg
+{
+    background-color: #f7f7f7;
+}
+.tv-blog-postmeta {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-blog-details h3:hover {
+    color: #f75940;
+}
+.tv-blog-block {
+    margin-bottom: 30px;
+}
+.tv-block-clear div:nth-child(2n+1)
+{
+    clear:both;
+}
+/*End Blog CSS*/
+
+/*Insta CSS*/
+#instaowl.owl-theme .owl-dots .owl-dot span {
+    background: #222222 none repeat scroll 0 0;
+}
+#instaowl.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f75940 none repeat scroll 0 0;
+}
+.gallery-overlay {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: scale(0) rotate(-180deg);
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+    z-index: -1;
+}
+.gallery-overlay-inner {
+    background: rgba(0, 0, 0, 0) url("../images/Image43.png") no-repeat scroll center center / cover ;
+    border-radius: 17px;
+    color: #ffffff;
+    display: table;
+    font-size: 42px;
+    height: 100%;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.gallery-overlay-inner i {
+    display: table-cell;
+    vertical-align: middle;
+}
+.tv-insta-img{
+    position: relative;
+}
+.tv-insta-img:hover .gallery-overlay {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+/*End Insta CSS*/
+
+/*Footer CSS*/
+.backlink-top {
+    border-top: 3px solid #eee;
+}
+.tv-footer-menu li {
+    display: inline-block;
+}
+.tv-footer-menu {
+    padding: 20px 0;
+}
+.tv-footer-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.tv-footer-menu li:nth-child(3) {
+    margin: 0;
+}
+.tv-footer-menu a {
+    color: #707070;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-footer-menu a:hover
+{
+    color: #f75940;
+}
+.tv-copyright {
+    float: right;
+    padding: 20px 0;
+}
+.tv-copyright > p {
+    color: #707070;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-copyright a {
+    color: #f75940;
+    font-weight: 700;
+}
+.tv-copyright a:hover
+{
+    color:#222222;
+}
+/*End Footer CSS*/
+
+/*Back To Top CSS*/
+#back-to-top
+{
+    background-color: #f75940;
+    border-radius: 50%;
+    bottom: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    line-height: 38px;
+    outline: medium none;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+    z-index: 992;
+}
+.animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+.bounce {
+    animation-name: bounce;
+}
+/*End Back To Top CSS*/
+
+/*Eatry Classic CSS*/
+#classicowl .owl-prev {
+    left: 1%;
+}
+#classicowl .owl-next {
+    right: 1%;
+}
+/*End Eatry Classic CSS*/
+
+/*Sub menu CSS*/
+.tv-border-saparator {
+    border-bottom-color: #f75940;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: #f75940;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: block;
+    height: 4px;
+    width: 100%;
+}
+.tv-submenu-details h2
+{
+    color: #f75940;
+    font-family: "Baloo Tamma",cursive;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-submenu-title::after {
+    content: "...........................";
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+}
+.tv-submenu-title {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-submenu-title:hover
+{
+    color:#f75940;
+}
+.tv-submenu-meta li {
+    display: inline;
+}
+.tv-submenu-meta {
+    margin-top: 10px;
+}
+.tv-submenu-singleitem {
+    margin-top: 30px;
+}
+.tv-submenu-highlight {
+    background-color: #f75940;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-transform: capitalize;
+}
+.tv-submenu-price {
+    float: right;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-submenu-meta a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-submenu-schedule h4 {
+    color: #f75940;
+    font-family: "Baloo Tamma",cursive;
+    font-size:50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}   
+.tv-submenu-schedule {
+    position: relative;
+    text-align: center;
+}
+/*End Sub menu CSS*/
+
+/*Book Table CSS*/
+.reservation-form input{
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #888;
+    border-radius: 0;
+    font-weight: 600;
+    height: 44px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.form-control::placeholder {
+    color: #222222;
+    opacity: 1;
+}
+.reservation-form textarea
+{
+    border: 1px solid #888;
+    font-size: 14px;
+    font-weight: 600;
+    height: 165px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    padding: 15px 20px;
+    resize: none;
+    text-transform: capitalize;
+    width: 100%;
+    border-radius: 0;
+}
+.form-control:focus{
+    border-color: #888;
+    box-shadow: none;
+    outline: 0 none;
+}
+.tv-specialties-block {
+    border-right: 1px solid #f75940;
+    padding: 0 40px 0 0;
+}
+.tv-specialties-block h4 , .tv-specialties-contact h4 , .tv-aboutus-details > h4 , .tv-service-progressbar > h4{ 
+    color: #f75940;
+    font-family: baloo tamma;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.tv-specialties-block > p , .tv-specialties-contact > p , .tv-aboutus-details > p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color:#707070;
+}
+.tv-specialties-phone span {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#707070;
+}
+.tv-specialties-phone {
+    margin-bottom: 20px;
+}
+.tv-specialties-phone span:nth-child(1) {
+    color: #f75040;
+    font-weight: 700;
+    margin-right: 5px;
+    text-transform: uppercase;
+}                
+.tv-specialties-clear div:nth-child(2n+1)
+{
+    clear:both;
+}
+/*End Book Table CSS*/
+
+/*About Us Section*/
+.progress-bar {
+    height:5px;
+    background-color: #f75940;
+}
+.progress
+{
+    height: 5px;
+}
+.tv-service-details > h3 {
+    font-size:15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.tv-aboutus-bg-details > h4 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-aboutus-bg-details > p {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.tv-aboutus-bg-details {
+    margin-bottom: 20px;
+}
+/*End About Us Section*/
+
+/*Event Celebrate CSS*/
+.tv-innerevent-img:hover .tv-event-subtitle{
+    right: 0;
+    transform: scale(1);
+}
+.tv-innerevent-img
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+.tv-event-clear div:nth-child(3n+1)
+{
+    clear:both;
+}
+.tv-event-subtitle {
+    position: absolute;
+    right: -25%;
+    top: 10%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+    width: 50%;
+    z-index: 9;
+}
+.tv-innerevent-img:hover .tv-event-link::after {
+    opacity: 0.7;
+}
+.tv-event-link::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.tv-event-subtitle > h4 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.tv-event-subtitle > h4:hover {
+    color: #f75940;
+}
+/*End Event Celebrate CSS*/
+
+/*Counter Inner Bg CSS*/
+.tv-counter-bg
+{
+    background-color: #f75940;
+}
+.tv-statistics-counter p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-statistics-counter h5 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.tv-statistics-counter {
+    text-align: center;
+}
+/*End Counter Inner Bg CSS*/
+
+/*Contact Us CSS*/
+#map {
+    height: 300px;
+}
+.tv-contactus-title h4 , .tv-contactus-callblock > h4 {
+    color: #f75940;
+    font-family: baloo tamma;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-contactus-title > p , .tv-contactus-callblock> p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.tv-contactus-details {
+    margin-top: 20px;
+}
+.tv-contactus-address > h4 {
+    color: #f75940;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-contactus-address > p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 10px 0;
+}
+.tv-contactus-emailphone > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-contactus-emailphone > a:hover
+{
+    color:#f75940;
+}
+.tv-contactus-emailphone label {
+    color: #f75940;
+    letter-spacing: 1px;
+}
+.tv-contactus-clear div:nth-child(2n+1)
+{
+    clear:both;
+}
+.tv-contactus-block
+{
+    margin-bottom: 40px;
+}
+.tv-innercontact-details{
+    margin-top: 20px;
+}
+.tv-connectwith-us 
+{
+    margin-top: 30px;
+}
+.tv-innercontact-details h5 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-innercontact-details span {
+    color: #f75940;
+    margin-right: 10px;
+}
+.tv-connectwith-us li {
+    display: inline;
+}
+.tv-connectwith-us a {
+    margin-right: 10px;
+    font-size: 14px;
+}
+.tv-connectwith-us ul {
+    margin-top: 20px;
+}
+.tv-connectwith-us a:hover
+{
+    color:#f75940;
+}
+.tv-connectwith-us > h4 {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+/*End Contact Us CSS*/
+
+/*Who We Are CSS*/
+.tv-whoweare-block
+{
+    margin-bottom: 40px;
+}
+.tv-whoweare-block h4 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-whoweare-block p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.tv-whoweare-clear div:nth-child(3n+1)
+{
+    clear:both;
+}
+.tv-homemade-details h4 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.tv-homemade-details > p {
+    letter-spacing: 1px;
+}
+.tv-homemade-details
+{
+    margin-top: 10px;
+}
+/*End Who We Are CSS*/
+
+/*Service CSS*/
+.tv-question-details > a h4 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:#f75940;
+}
+.tv-question-details > p {
+    letter-spacing: 1px;
+    margin-top:20px;
+}
+.tv-question-details
+{
+    margin-bottom: 50px;
+}
+/*End Service CSS*/

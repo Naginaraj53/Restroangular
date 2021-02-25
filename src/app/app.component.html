@@ -1,21 +1,988 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+    <!--Header Of Site-->
+    <header>
+      <!--Top Header Section-->
+      <div class="tv-header-top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-7 col-sm-12">
+                      <div class="tv-headertopwidget">
+                          <div class="tv-headertop-details">
+                              <p><i class="fa fa-envelope-o"></i>Email: <a href="#">info@eatry.com</a></p>
+                              <p><i class="fa fa-phone"></i>Telephone: <a href="#">+1 800 234 5678</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                      <div class="tv-headertopwidget">
+                          <div class="tv-booktable-button">
+                              <a href="reservation.html">Book a table</a>
+                          </div>
+                          <div class="tv-header-social">
+                              <ul>
+                                  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                                  <li><a href=""><i class="fa fa-behance"></i></a></li>
+                                  <li><a href=""><i class="fa fa-feed"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--End Top Header Section-->
+
+      <!--Navigation-->
+      <nav class="navbar navbar-default tv-navbar-custom">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                      <div class="navbar-header">
+                          <!--                                <a href="home.html" class="navbar-brand tv-bakeat-logo"><span>Bakeat</span>Hunt</a>-->
+                          <a href="home.html"><img src="./assets/images/logo.png"></a>
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tv-navbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                      <div class="collapse navbar-collapse" id="tv-navbar">
+                          <ul class="nav navbar-nav text-center">
+                              <li class="tv-drop-menu">
+                                  <a data-toggle="dropdown" aria-expanded="false" class="tv-menu">Home<i class="fa fa-angle-down"></i></a>
+                                  <ul class="dropdown-menu tv-sub-menu">
+                                      <li class="dropdown-submenu Navigation-listItem is-dropdown ">
+                                          <a href="eatryclassic.html">Eatry Classic</a>
+                                          <a href="eatryparallax.html">Eatry Parallax</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class=""><a href="menu.html" class="tv-menu">Our Menu</a></li>
+                              <li class="tv-drop-menu">
+                                  <a data-toggle="dropdown" aria-expanded="false" class="tv-menu">Reservation<i class="fa fa-angle-down"></i></a>
+                                  <ul class="dropdown-menu tv-sub-menu">
+                                      <li class="dropdown-submenu Navigation-listItem is-dropdown ">
+                                          <a href="reservation.html">Book A Table</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class=""><a href="ourservice.html" class="tv-menu">Our Services</a></li>
+                              <li class="tv-drop-menu">
+                                  <a data-toggle="dropdown" aria-expanded="false" class="tv-menu">Pages<i class="fa fa-angle-down"></i></a>
+                                  <ul class="dropdown-menu tv-sub-menu">
+                                      <li class="dropdown-submenu Navigation-listItem is-dropdown ">
+                                          <a href="aboutus.html">About Us</a>
+                                          <a href="whoweare.html">Who We Are</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class=""><a href="contactus.html" class="tv-menu">Contact Us</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!--End Navigation-->
+
+      <!--Banner Section-->
+      <div class="tv-banner-image" style="background: rgba(0, 0, 0, 0) url('./assets/images/Image46.jpg') no-repeat scroll center top / cover;">
+          <div class="tv-opacity-medium tv-bg-black"></div>
+          <div class="tv-banner-info">
+              <h2>Best Food & Quality</h2>
+              <h1>Best Eatry</h1>
+              <p>Established in 1991</p>
+          </div>
+      </div>
+      <!--End Banner Section-->
+  </header>
+  <!--End Header Of Site-->
+
+  <!--Tastes Good Section-->
+  <section class="tv-section-padding">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="tv-tastes-imgtitle">
+                      <h3>Best Eatry</h3>
+                      <p>Restaurant</p>
+                  </div>
+                  <div class="tv-tastes-img" style="background: rgba(0, 0, 0, 0) url('./assets/images/Image7.png') no-repeat scroll center top / cover;">
+                      <div class="tv-tastes-info">
+                          <p>Donec sollicitudin orci eget sapien molestie pellentesque. Cras a dolor non massa placerat cursus.placerat cursus.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                  <div class="tv-tastes-block">
+                      <div class="tv-section-title">
+                          <h3>Great Food. Tastes Good.</h3>
+                          <p>If You Can Dream It. You Can Do It.</p>
+                      </div>
+                      <p>Aliquam commodo nunc sit amet quam sollicitudin egestas. Mauris pretium quis nunc sed cursus. Cras cursus dui mi, vitae fringilla est euismod sit amet. Pellentesque eget aliquam nisi. Morbi id tincidunt lectus, sed lacinia leo. Curabitur semper dignissim velit quis vulputate. Pellentesque dui nibh, auctor quis facilisis et, rutrum non sem. Pellentesque molestie massa ut dolor lobortis, vitae tempus nunc convallis. Phasellus non congue orci. Ut quis nibh metus. Cras porta enim purus, vel sodales elit eleifend et.</p>
+                      <p>Aliquam commodo nunc sit amet quam sollicitudin egestas. Mauris pretium quis nunc sed cursus. Cras cursus dui mi, vitae fringilla est euismod sit amet. Pellentesque eget aliquam nisi. Morbi id tincidunt lectus, sed lacinia leo. Curabitur semper dignissim velit quis vulputate. Pellentesque dui nibh, auctor quis facilisis et, rutrum non sem. Pellentesque molestie massa ut dolor lobortis, vitae tempus nunc convallis. Phasellus non congue orci. Ut quis nibh metus. Cras porta enim purus, vel sodales elit eleifend et.</p>
+                      <div class="tv-eatry-button text-center">
+                          <a href="menu.html">See The Menu <span class="arrow_right"></span></a>
+                          <a href="reservation.html">Reservation <span class="arrow_right"></span></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--End Tastes Good Section-->
+
+  <!--Place Section-->
+  <section class="tv-section-padding">
+      <div class="container">
+          <div class="row">
+              <div class="tv-section-title">
+                  <h3>A Place For Tasty Food.</h3>
+                  <p>Eat to live, not live to eat</p>
+              </div>
+              <div class="tv-service-block">
+                  <div class="col-md-3 col-sm-4 col-xs-12">
+                      <div class="tv-service-content">
+                          <h4>Ingredient Supply</h4>
+                          <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                      <div class="tv-service-content">
+                          <h4>Event Booking</h4>
+                          <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                      <div class="tv-service-content">
+                          <h4>Fast Delivered</h4>
+                          <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6  col-sm-4 col-xs-12">
+                      <div class="tv-service-img">
+                          <img src="./assets/images/Image8.png" class="width-100 img-responsive" alt="serviceimg" />
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-xs-12">
+                      <div class="tv-service-content text-right">
+                          <h4>Best Quality</h4>
+                          <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                      <div class="tv-service-content text-right">
+                          <h4>Online Booking</h4>
+                          <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                      <div class="tv-service-content text-right">
+                          <h4>Freshly Made</h4>
+                          <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--End Place Section-->
+
+  <!--Find Our Menu Section-->
+  <section class="tv-section-padding">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="tv-section-title">
+                  <h3>Find Our Best Tasty Menu.</h3>
+                  <p>Eat Healthy Become Healthy</p>
+              </div>
+              <div class="col-md-4 padding-0 col-sm-6 col-xs-12">
+                  <div class="tv-find-block">
+                      <div class="tv-find-media">
+                          <img src="./assets/images/Image9.jpg" class="img-responsive width-100" alt="findimg" />
+                      </div>
+                      <div class="tv-find-details">
+                          <h4>Good morning</h4>
+                          <h3>Breakfast Deal</h3>
+                          <p>From <small>$20</small>/day</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 padding-0 col-sm-6 col-xs-12">
+                  <div class="tv-find-block">
+                      <div class="tv-find-media">
+                          <img src="./assets/images/Image10.jpeg" class="img-responsive width-100" alt="findimg" />
+                      </div>
+                      <div class="tv-find-details">
+                          <h4>for Lunch</h4>
+                          <h3>Special Lunch</h3>
+                          <p>From <small>$15</small>/day</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 padding-0 col-sm-6 col-xs-12">
+                  <div class="tv-find-block">
+                      <div class="tv-find-media">
+                          <img src="./assets/images/Image11.jpeg" class="img-responsive width-100" alt="findimg" />
+                      </div>
+                      <div class="tv-find-details">
+                          <h4>for Dinner</h4>
+                          <h3>Special Dinner</h3>
+                          <p>From <small>$25</small>/day</p>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--End Find Our Menu Section-->
+
+  <!--Event Comming Section-->
+  <section class="tv-section-padding">
+      <div class="tv-fixed-img tv-section-padding-70" style="background-image: url('./assets/images/Image1.png')">
+          <div class="tv-whiteopacity-medium tv-bg-white"></div>
+          <div class="container">
+              <div class="row">
+                  <div class="tv-section-title" style="position: relative;">
+                      <h3>Our Event.</h3>
+                      <p>Next Comming Event</p>
+                  </div>
+                  <div class="tv-eventcomming-block">
+                      <div class="col-md-2 col-sm-2 col-xs-12">
+                          <div class="tv-eventcomming-date">
+                              <span>21</span>
+                              <p>Jan 2018</p>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                          <div class="tv-eventcomming-details">
+                              <h4><a>Eatry David to host Event Awards 2018</a></h4>
+                              <p class="tv-eventcomming-address">11:00 am -1:00 pm - 196 Manhattan, MY, USA</p>
+                              <p class="tv-eventcomming-content">we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class="tv-eventcomming-img">
+                              <img src="./assets/images/Image12.jpeg" class="img-responsive width-100" alt="eventcomming-img" />
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tv-eventcomming-block">
+                      <div class="col-md-2 col-sm-2 col-xs-12">
+                          <div class="tv-eventcomming-date">
+                              <span>28</span>
+                              <p>Jan 2018</p>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                          <div class="tv-eventcomming-details">
+                              <h4><a>Eatry David to host Event Awards 2018</a></h4>
+                              <p class="tv-eventcomming-address">11:00 am -1:00 pm - 196 Manhattan, MY, USA</p>
+                              <p class="tv-eventcomming-content">we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class="tv-eventcomming-img">
+                              <img src="./assets/images/Image13.jpeg" class="img-responsive width-100" alt="eventcomming-img" />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--End Event Comming Section-->
+
+  <!--Our Chef Section-->
+
+  <section class="tv-section-padding">
+      <div class="container">
+          <div class="row">
+              <div class="tv-section-title">
+                  <h3>Our Chef.</h3>
+                  <p>Awesome Chef</p>
+              </div>
+              <div id="owl-example" class="owl-carousel owl-theme">
+                  <div class="tv-chef-details text-center">
+                      <div class="tv-chef-img">
+                          <img src="./assets/images/Image14.jpg" class="" alt="tvchefimg">
+                          <div class="tv-chef-social">
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tv-chef-details text-center">
+                      <div class="tv-chef-img">
+                          <img src="./assets/images/Image15.jpg" class="rt" alt="tvchefimg">
+                          <div class="tv-chef-social">
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tv-chef-details text-center">
+                      <div class="tv-chef-img">
+                          <img src="./assets/images/Image16.jpg" class="" alt="tvchefimg">
+                          <div class="tv-chef-social">
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tv-chef-details text-center">
+                      <div class="tv-chef-img">
+                          <img src="./assets/images/Image17.jpg" class="" alt="tvchefimg">
+                          <div class="tv-chef-social">
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tv-chef-details text-center">
+                      <div class="tv-chef-img">
+                          <img src="./assets/images/Image14.jpg" class="" alt="tvchefimg">
+                          <div class="tv-chef-social">
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tv-chef-details text-center">
+                      <div class="tv-chef-img">
+                          <img src="./assets/images/Image15.jpg" class="" alt="tvchefimg">
+                          <div class="tv-chef-social">
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Chef Owl Script-->
+  <script>
+      $(document).ready(function () {
+          $('#owl-example').owlCarousel({
+              margin: 10,
+              nav: true,
+              items: 4,
+              dots: false,
+              navText: ["<img src='./assets/images/Image19.png'>", "<img src='./assets/images/Image18.png'>"],
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  600: {
+                      items: 1
+                  },
+                  700: {
+                      items: 2
+                  },
+                  1000: {
+                      items: 4
+                  }
+              }
+          });
+      });
+  </script>
+  <!--End Chef Owl Script-->
+
+  <!--End Our Chef Section-->
+
+  <!--Menu Section-->
+  <div id="menu" class="tv-section-padding">
+      <div class="container">
+          <div class="row">
+              <div class="tv-section-title">
+                  <h3>TODAY'S MENU.</h3>
+                  <p>Delicius</p>
+              </div>
+              <div class="tv-filter-wrapper col-xs-12 text-center tv-mb-30">
+                  <div class="portfolio-filter filter-options">
+                      <button class="active" data-group="all">all</button>
+                      <button data-group="breakfast">Breakfast</button>
+                      <button data-group="coffee">Coffee</button>
+                      <button data-group="dinner">Dinner</button>
+                      <button data-group="lunch">Lunch</button>
+                  </div>
+              </div>
+              <div id="grid" class="portfolio-grid  my-shuffle-container my-shuffle">
+                  <div class="item picture-item  col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["breakfast" , "coffee"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image20.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image20.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian Salads<span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item picture-item  col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["coffee" , "breakfast"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image21.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image21.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian soup <span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div> 
+                  </div>
+                  <div class="item picture-item col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["dinner"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image22.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image22.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian soup <span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div> 
+                  </div>
+                  <div class="item picture-item col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["coffee" , "dinner"  , "lunch"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image22.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image22.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian soup <span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item picture-item col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["breakfast" , "dinner"  , "lunch"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image23.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image23.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian soup <span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item picture-item col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["dinner" , "lunch"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image24.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image24.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian soup <span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item picture-item col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["lunch"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image25.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image25.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian soup <span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item picture-item col-lg-6 col-md-6 col-sm-6 col-xs-12 tv-mb-30" data-groups='["lunch"]'>
+                      <div class="tv-menu-details">
+                          <div class="media">
+                              <div class="media-left">
+                                  <a href="./assets/images/Image26.jpeg" data-image-popup="">
+                                      <img src="./assets/images/Image26.jpeg" class="media-object" alt="menuimg" style="width: 100px;" />
+                                  </a>
+                              </div>
+                              <div class="media-body">
+                                  <h4>Cherry Russian soup <span class="menu-price">$25.30</span></h4>
+                                  <p class="menu-speacification"><small>&ndash; Juice Fruit</small> <small>&ndash; Checken</small> <small>&ndash; Cherry</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Vegetable</small> <small>&ndash; Milk</small> <small>&ndash; Potato</small></p>
+                                  <p class="menu-speacification"><small>&ndash; Tomato</small> <small>&ndash; Chilli</small> <small>&ndash; Sesame</small></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--End Gallery Section-->
+
+  <!--Gallery Section-->
+
+  <section class="tv-section-padding">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12 padding-0">
+                  <div class="tv-gallery-block">
+                      <div class="tv-gallery-details">
+                          <div class="tv-section-title">
+                              <h3>GALLERY.</h3>
+                              <p>Best Gallery</p>
+                          </div>
+                          <div class="tv-gallery-info">
+                              <p>Aenean hendrerit condimentum augue in euismod. Donec mollis nisi mauris, quis scelerisque enim condimentum id. Aenean euismod dolor et laoreet tempus. In euismod dui at mauris dictum efficitur non sed nibh.</p>
+                          </div>
+                          <div class="tv-eatry-button">
+                              <a href="">Read More <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                      <div class="tv-gallery-media">
+                          <div id="galleryowl" class="owl-carousel owl-theme tv-gallery-bgcolor">
+                              <div class="tv-gallery-img">
+                                  <a href="./assets/images/Image27.jpeg" class="tv-gallery-link" data-gallery-image-popup="">
+                                      <img src="./assets/images/Image27.jpeg" class="width-100 img-responsive" alt="galleryimg" />
+                                      <div class="tv-gallery-subtitle">
+                                          <h4>Lorem Ipsum</h4>
+                                      </div>
+                                  </a>
+                              </div>
+                              <div class="tv-gallery-img">
+                                  <a href="./assets/images/Image28.jpeg" class="tv-gallery-link" data-gallery-image-popup="">
+                                      <img src="./assets/images/Image28.jpeg" class="width-100 img-responsive" alt="galleryimg" />
+                                      <div class="tv-gallery-subtitle">
+                                          <h4>Lorem Ipsum</h4>
+                                      </div>
+                                  </a>
+                              </div>
+                              <div class="tv-gallery-img">
+                                  <a href="./assets/images/Image29.jpeg" class="tv-gallery-link" data-gallery-image-popup="">
+                                      <img src="./assets/images/Image29.jpeg" class="width-100 img-responsive" alt="galleryimg" />
+                                      <div class="tv-gallery-subtitle">
+                                          <h4>Lorem Ipsum</h4>
+                                      </div>
+                                  </a>
+                              </div>
+                              <div class="tv-gallery-img">
+                                  <a href="./assets/images/Image30.jpeg" class="tv-gallery-link" data-gallery-image-popup="">
+                                      <img src="./assets/images/Image30.jpeg" class="width-100 img-responsive" alt="galleryimg" />
+                                      <div class="tv-gallery-subtitle">
+                                          <h4>Lorem Ipsum</h4>
+                                      </div>
+                                  </a>
+                              </div>
+                              <div class="tv-gallery-img">
+                                  <a href="./assets/images/Image24.jpeg" class="tv-gallery-link" data-gallery-image-popup="">
+                                      <img src="./assets/images/Image24.jpeg" class="width-100 img-responsive" alt="galleryimg" />
+                                      <div class="tv-gallery-subtitle">
+                                          <h4>Lorem Ipsum</h4>
+                                      </div>
+                                  </a>
+                              </div>
+                              <div class="tv-gallery-img">
+                                  <a href="./assets/images/Image25.jpeg" class="tv-gallery-link" data-gallery-image-popup="">
+                                      <img src="./assets/images/Image25.jpeg" class="width-100 img-responsive" alt="galleryimg" />
+                                      <div class="tv-gallery-subtitle">
+                                          <h4>Lorem Ipsum</h4>
+                                      </div>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>    
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Gallery Owl Script-->
+  <script>
+      $(document).ready(function () {
+          $('#galleryowl').owlCarousel({
+              autoWidth: false,
+              nav: false,
+              items: 3,
+              dots: true,
+              mouseDrag: false,
+//      navText : ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<i class="fa fa-arrow-right" aria-hidden="true"></i>']
+//                    navText: ["<img src='./assets/images/Image19.png'>", "<img src='./assets/images/Image18.png'>"],
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  600: {
+                      items: 1
+                  },
+                  700: {
+                      items: 1
+                  },
+                  1000: {
+                      items: 1
+                  },
+                  1100:
+                          {
+                              items: 3
+                          }
+              }
+          });
+      });
+  </script>
+  <!--End Gallery Owl Script-->
+
+  <!--End Gallery Section-->
+
+  <!--Testinominal Section-->
+  <section class="tv-section-padding">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12 padding-0">
+                  <div class="tv-testinominal-block">
+                      <div class="tv-testinominal-img">
+                          <img src="./assets/images/Image31.jpeg" class="img-responsive width-100" alt="testinominalimg" />
+                      </div>
+                      <div class="tv-testinominal-details">
+                          <div id="testinominalowl" class="owl-carousel owl-theme">
+                              <div class="tv-testinominal-info">
+                                  <div class="tv-section-title">
+                                      <h3>Our Testinominal.</h3>
+                                      <p>They Say</p>
+                                  </div>
+                                  <p>Nullam id tincidunt odio. Etiam at risus ut elit luctus euismod. Aenean laoreet at purus vitae dignissim. Donec luctus lorem lacus, a sagittis mauris ultricies in. Vivamus molestie dapibus neque porta porta. Aenean blandit elit dui. Vestibulum ac suscipit purus, consequat lacinia nisl. Sed nisi felis, viverra quis ante id, maximus efficitur leo. Sed luctus placerat viverra. Fusce urna augue, rutrum non sem in, porta imperdiet turpis. Sed ornare vulputate accumsan.</p>
+                                  <h4>
+                                      <span class="tv-testinominal-name">James Newbie</span>
+                                      <span class="tv-testinominal-job">Project manager</span>
+                                  </h4>
+                                  <div class="tv-testinominal-subimg">
+                                      <img src="./assets/images/Image32.jpg" class="img-circle img-responsive" width="66" height="66">
+                                  </div>
+                              </div>
+                              <div class="tv-testinominal-info">
+                                  <div class="tv-section-title">
+                                      <h3>Our Testinominal.</h3>
+                                      <p>They Say</p>
+                                  </div>
+                                  <p>Nullam id tincidunt odio. Etiam at risus ut elit luctus euismod. Aenean laoreet at purus vitae dignissim. Donec luctus lorem lacus, a sagittis mauris ultricies in. Vivamus molestie dapibus neque porta porta. Aenean blandit elit dui. Vestibulum ac suscipit purus, consequat lacinia nisl. Sed nisi felis, viverra quis ante id, maximus efficitur leo. Sed luctus placerat viverra. Fusce urna augue, rutrum non sem in, porta imperdiet turpis. Sed ornare vulputate accumsan.</p>
+                                  <h4>
+                                      <span class="tv-testinominal-name">James Newbie</span>
+                                      <span class="tv-testinominal-job">Project manager</span>
+                                  </h4>
+                                  <div class="tv-testinominal-subimg">
+                                      <img src="./assets/images/Image33.jpg" class="img-circle img-responsive" width="66" height="66">
+                                  </div>
+                              </div>
+                              <div class="tv-testinominal-info">
+                                  <div class="tv-section-title">
+                                      <h3>Our Testinominal.</h3>
+                                      <p>They Say</p>
+                                  </div>
+                                  <p>Nullam id tincidunt odio. Etiam at risus ut elit luctus euismod. Aenean laoreet at purus vitae dignissim. Donec luctus lorem lacus, a sagittis mauris ultricies in. Vivamus molestie dapibus neque porta porta. Aenean blandit elit dui. Vestibulum ac suscipit purus, consequat lacinia nisl. Sed nisi felis, viverra quis ante id, maximus efficitur leo. Sed luctus placerat viverra. Fusce urna augue, rutrum non sem in, porta imperdiet turpis. Sed ornare vulputate accumsan.</p>
+                                  <h4>
+                                      <span class="tv-testinominal-name">James Newbie</span>
+                                      <span class="tv-testinominal-job">Project manager</span>
+                                  </h4>
+                                  <div class="tv-testinominal-subimg">
+                                      <img src="./assets/images/Image34.jpg" class="img-circle img-responsive" width="66" height="66">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Testinominal Owl Script-->
+  <script>
+      $(document).ready(function () {
+          $('#testinominalowl').owlCarousel({
+              autoWidth: false,
+              nav: false,
+              items: 1,
+              dots: true,
+              mouseDrag: false,
+//      navText : ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<i class="fa fa-arrow-right" aria-hidden="true"></i>']
+//                    navText: ["<img src='./assets/images/Image19.png'>", "<img src='./assets/images/Image18.png'>"],
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  600: {
+                      items: 1
+                  },
+                  700: {
+                      items: 1
+                  },
+                  1000: {
+                      items: 1
+                  }
+              }
+          });
+      });
+  </script>
+  <!--End Testinominal Owl Script-->
+
+  <!--End Testinominal Section-->
+
+  <!--Blog Section-->
+  <section class="tv-section-padding">
+      <div class="tv-block-bg tv-section-padding-70">
+          <div class="container">
+              <div class="row">
+                  <div class="tv-section-title">
+                      <h3>From The Blog.</h3>
+                      <p>News</p>
+                  </div>
+                  <div class="tv-block-clear">
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                          <div class="tv-blog-block">
+                              <div class="tv-blog-img">
+                                  <img src="./assets/images/Image35.jpeg" class="width-100 img-responsive" alt="newsimg" />
+                              </div>
+                              <div class="tv-blog-details">
+                                  <div class="tv-eatry-button tv-offspace-bottom-40">
+                                      <a href="">New Life <span class="arrow_right"></span></a>
+                                  </div>
+                                  <h3><a href="">Marriage Function</a></h3>
+                                  <p class="tv-blog-postmeta"><span>13 Jan, 2018</span> - <span><span>3 Comments </span></span></p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                          <div class="tv-blog-block">
+                              <div class="tv-blog-img">
+                                  <img src="./assets/images/Image36.jpeg" class="width-100 img-responsive" alt="newsimg" />
+                              </div>
+                              <div class="tv-blog-details">
+                                  <div class="tv-eatry-button tv-offspace-bottom-40">
+                                      <a href="">New Life <span class="arrow_right"></span></a>
+                                  </div>
+                                  <h3><a href="">Birthday Celebration</a></h3>
+                                  <p class="tv-blog-postmeta"><span>13 Jan, 2018</span> - <span><span>3 Comments </span></span></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--End Blog Section-->
+
+  <!--Instagram Section-->
+  <section class="tv-section-padding">
+      <div class="container">
+          <div class="row">
+              <div class="tv-section-title">
+                  <h3>@EatryInsta.</h3>
+                  <p>You Can Search Your Insta</p>
+              </div>
+              <div id="instaowl" class="owl-carousel owl-theme">
+                  <div class="tv-insta-img">
+                      <a href="">
+                          <img src="./assets/images/Image37.jpeg" class="img-responsive" alt="instaimg" />
+                          <div class="gallery-overlay">
+                              <div class="gallery-overlay-inner">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="tv-insta-img">
+                      <a href="">
+                          <img src="./assets/images/Image38.jpeg" class="img-responsive" alt="instaimg" />
+                          <div class="gallery-overlay">
+                              <div class="gallery-overlay-inner">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="tv-insta-img">
+                      <a href="">
+                          <img src="./assets/images/Image39.jpeg" class="img-responsive" alt="instaimg" />
+                          <div class="gallery-overlay">
+                              <div class="gallery-overlay-inner">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="tv-insta-img">
+                      <a href="">
+                          <img src="./assets/images/Image40.jpeg" class="img-responsive" alt="instaimg" />
+                          <div class="gallery-overlay">
+                              <div class="gallery-overlay-inner">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="tv-insta-img">
+                      <a href="">
+                          <img src="./assets/images/Image41.jpeg" class="img-responsive" alt="instaimg" />
+                          <div class="gallery-overlay">
+                              <div class="gallery-overlay-inner">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="tv-insta-img">
+                      <a href="">
+                          <img src="./assets/images/Image42.jpeg" class="img-responsive" alt="instaimg" />
+                          <div class="gallery-overlay">
+                              <div class="gallery-overlay-inner">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Insta Owl Script-->
+  <script>
+      $(document).ready(function () {
+          $('#instaowl').owlCarousel({
+              margin: 10,
+              autoWidth: false,
+              nav: false,
+              items: 5,
+              dots: true,
+              navText: ["<img src='./assets/images/Image19.png'>", "<img src='./assets/images/Image18.png'>"],
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  600: {
+                      items: 1
+                  },
+                  700: {
+                      items: 3
+                  },
+                  1000: {
+                      items: 5
+                  }
+              }
+          });
+      });
+  </script>
+  <!--End Insta Owl Script-->
+
+  <!--End Instagram Section-->
+
+  <!--Footer Section-->
+  <section class="tv-section-footer-padding ">
+      <div class="container backlink-top">
+          <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12 padding-0">
+                  <div class="tv-footer-menu">
+                      <ul>
+                          <li><a href="home.html">Home</a></li>
+                          <li><a href="aboutus.html">About Us</a></li>
+                          <li><a href="contactus.html">Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12 padding-0">
+                  <div class="tv-copyright">
+                      <!--Do not remove Backlink from footer of the template. To remove it you can purchase the Backlink !-->
+                      <p>&copy; All right reserved. Designed by <a href="https://www.themevault.net">ThemeVault</a> </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--End Footer Section-->
 
 <router-outlet></router-outlet>

@@ -1,0 +1,1062 @@
+/*
+Template Name:Eatery
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+
+@media (min-width: 1199px) and (max-width: 1300px) 
+{
+
+}
+
+@media (max-width: 1199px) 
+{
+
+}
+
+@media (min-width:1000px) and (max-width:1100px)
+{
+    .tv-header-social {
+        float: none;
+    }
+    .tv-header-social ul li a {
+        width: 35px;
+    }
+    .tv-menu {
+        font-size: 10px;
+    }
+    .tv-find-details > h3 {
+        font-size: 22px;
+    }
+    .tv-gallery-media {
+        width: 50%;
+    }
+    .tv-gallery-details {
+        width: 50%;
+    }
+    /*Chef CSS*/
+    .owl-next {
+        margin-top: 10px;
+        right: 0;
+        top: 100%;
+        transform: none;
+    }
+    .owl-prev {
+        left: 0;
+        margin-top: 10px;
+        top: 100%;
+        transform: none;
+    }
+    /*End Chef CSS*/
+
+    .tv-submenu-title {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:992px) and (max-width:999px)
+{
+    .tv-header-social {
+        float: none;
+    }
+    .tv-header-social ul li a {
+        width: 35px;
+    }
+    .tv-menu {
+        font-size: 10px;
+    }
+    .tv-find-details > h3 {
+        font-size: 22px;
+    }
+    .tv-gallery-media {
+        width: 50%;
+    }
+    .tv-gallery-details {
+        width: 50%;
+    }
+    /*Chef CSS*/
+    .owl-next {
+        margin-top: 10px;
+        right: 0;
+        top: 100%;
+        transform: none;
+    }
+    .owl-prev {
+        left: 0;
+        margin-top: 10px;
+        top: 100%;
+        transform: none;
+    }
+    /*End Chef CSS*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    /*Header CSS*/
+    .tv-headertop-details {
+        margin-bottom: 20px;
+    }
+    .nav
+    {
+        width: 100%;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #222222;
+    }
+    .tv-newsletter-input input
+    {
+        width:50%;
+    }
+    .tv-newsletter-button button{
+        width:50%;
+    }
+    .navbar-default .navbar-nav > li > a:hover
+    {
+        color:#f75940;
+    }
+    .navbar-header{
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .collapse.in, .tv-sub-sub-menu{
+        display:block !important;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        padding: 15px 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f75940;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#000000 !important;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: transparent;
+        border: 0 none;
+        box-shadow: none;
+        float: none;
+        margin-top: 0;
+        position: static;
+        width: auto;
+    }
+    .tv-sub-menu li a
+    {
+        color:#222222;
+    }
+    /*End Header CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-info {
+        width: 100%;
+    }
+    /*End Banner CSS*/
+
+    /*Restaurant CSS*/
+    .tv-tastes-block {
+        padding: 10px 0;
+    }
+    .tv-tastes-block .tv-section-title h3 {
+        font-size: 17px;
+    }
+    .tv-section-title > p {
+        font-size: 13px;
+    }
+    /*End Restaurant CSS*/
+
+    /*Find CSS*/
+    .tv-find-details {
+        padding: 80px 35px;
+    }
+    .tv-find-block {
+        margin-bottom: 20px;
+    }
+    /*End Find CSS*/
+
+    /*Event CSS*/
+    .tv-eventcomming-date {
+        padding: 5px 20px;
+        width: 100%;
+    }
+    .tv-eventcomming-details a {
+        font-size: 13px;
+    }
+    /*End Event CSS*/
+
+    /*Chef CSS*/
+    .owl-next {
+        margin-top: 10px;
+        right: 0;
+        top: 100%;
+        transform: none;
+    }
+    .owl-prev {
+        left: 0;
+        margin-top: 10px;
+        top: 100%;
+        transform: none;
+    }
+    /*End Chef CSS*/
+
+    /*Menu CSS*/
+    .tv-menu-details h4 {
+        font-size: 13px;
+    }
+    .menu-speacification {
+        font-size: 11px;
+    }
+    /*End Menu CSS*/
+
+    /*Gallery CSS*/
+    .tv-gallery-details {
+        width: 50%;
+    }
+    .tv-gallery-media {
+        width: 50%;
+    }
+    /*End Gallery CSS*/
+
+    /*Testinominals CSS*/
+    .tv-testinominal-info {
+        padding: 30px 0;
+    }
+    .tv-testinominal-img {
+        background-color: #f7f7f7;
+    }
+    /*End Testinominals CSS*/
+
+    /*Blog CSS*/
+    .tv-blog-details > h3
+    {
+        font-size: 19px;   
+    }
+    /*End Blog CSS*/
+
+    /*SubMenu CSS*/
+    .tv-submenu-details {
+        margin-bottom: 30px;
+    }
+    /*End SubMenu CSS*/
+
+    /*Event CSS*/
+    .tv-event-clear div:nth-child(3n+1) {
+        clear: none;
+    }
+    .tv-event-clear div:nth-child(2n+1) {
+        clear: none;
+    }
+    .tv-statistics-counter {
+        margin-bottom: 20px;
+    }
+    /*End Event CSS*/
+
+    .tv-homemade-block {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 767px) 
+{
+    /*Header CSS*/
+    .tv-headertopwidget {
+        text-align: center;
+    }
+    .tv-booktable-button {
+        float:none;
+    }
+    .tv-header-social {
+        float: none;
+    }
+    .tv-booktable-button > a {
+        display: inline-block;
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        padding: 15px 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f75940;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #f75940;
+    }
+    /*End Header CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-info h1 {
+        font-size: 45px;
+    }
+    .tv-banner-info {
+        width: 100%;
+    }
+    /*End Banner CSS*/
+
+    /*Food CSS*/
+    .tv-eatery-button > a {
+        padding: 10px 14px;
+    }
+    .tv-service-content {
+        text-align: center;
+    }
+    .tv-service-img {
+        margin-bottom: 30px;
+    }
+    .tv-find-block {
+        margin-bottom: 20px;
+    }
+    /*End Food CSS*/
+
+    /*Event CSS*/
+    .tv-eventcomming-block {
+        text-align: center;
+    }
+    .tv-eventcomming-date
+    {
+        margin:0 auto 20px auto;
+    }
+    .tv-eventcomming-details a {
+        font-size: 16px;
+    }
+    .tv-eventcomming-address {
+        font-size: 11px;
+    }
+    .tv-eventcomming-address::after {
+        left: 42%;
+        width: 100px;
+    }
+    .tv-eventcomming-img {
+        margin-top: 20px;
+    }
+    /*End Event CSS*/
+
+    /*Chef CSS*/
+    .owl-next {
+        margin-top: 10px;
+        right: 0;
+        top: 100%;
+        transform: none;
+    }
+    .owl-prev {
+        left: 0;
+        margin-top: 10px;
+        top: 100%;
+        transform: none;
+    }
+    /*End Chef CSS*/
+
+    /*Menu CSS*/
+    .portfolio-filter button {
+        font-size: 11px;
+        margin: 0 0 8px 5px;
+        padding: 3px 10px;
+    }
+    .tv-menu-details .media {
+        text-align: center;
+    }
+    .tv-menu-details .media-body, .tv-menu-details .media-left, .tv-menu-details .media-right {
+        display: inline;
+    }
+    .tv-menu-details img {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .menu-price {
+        float: none;
+        margin-left: 20px;
+    }
+    .tv-gallery-media {
+        width: 100%;
+        display: inline-block;
+    }
+    .tv-gallery-details {
+        width: 100%;
+        display: inline-block;
+        padding: 50px 20px;
+    }
+
+    /*Testinominal CSS*/
+    .tv-testinominal-img {
+        display: inline-block;
+        width: 100%;
+    }
+    .tv-testinominal-details {
+        display: inline-block;
+        width: 100%;
+        padding:50px 0;
+    }
+    /*End Testinominal CSS*/
+
+    /*Event CSS*/
+    /*End Event CSS*/
+    .tv-copyright > p {
+        text-align: center;
+    }
+    .tv-footer-menu {
+        text-align: center;
+    }
+    /*End Menu CSS*/
+
+    .tv-gallery-subtitle {
+        width: 30%;
+    }
+    .tv-copyright {
+        float: none;
+    }
+    /*SubMenu CSS*/
+    .tv-submenu-details {
+        margin-bottom: 30px;
+    }
+    /*End SubMenu CSS*/
+
+    .tv-service-progressbar {
+        margin-top: 20px;
+    }
+    .tv-statistics-counter {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .tv-homemade-block {
+        margin-bottom: 20px;
+    }
+    .tv-question-details {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 599px) and (min-width: 501px)
+{
+
+}
+
+@media (min-width:501px) and (max-width:599px)
+{
+    /*Header CSS*/
+    .tv-headertopwidget {
+        text-align: center;
+    }
+    .tv-booktable-button {
+        float:none;
+    }
+    .tv-header-social {
+        float: none;
+    }
+    .tv-booktable-button > a {
+        display: inline-block;
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        padding: 15px 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f75940;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #f75940;
+    }
+    /*End Header CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-info h1 {
+        font-size: 45px;
+    }
+    .tv-banner-info {
+        width: 100%;
+    }
+    /*End Banner CSS*/
+
+    /*Food CSS*/
+    .tv-eatery-button > a {
+        padding: 10px 14px;
+    }
+    .tv-section-title h3::after {
+        width: 25px;
+    }
+    .tv-section-title h3::before {
+        width: 25px;
+    }
+    .tv-section-title h3 {
+        font-size: 17px;
+    }
+    .tv-section-title > p{
+        font-size: 13px;
+    }
+    .tv-service-content {
+        text-align: center;
+    }
+    .tv-service-img {
+        margin-bottom: 30px;
+    }
+    .tv-find-block {
+        margin-bottom: 20px;
+    }
+    .tv-find-details > h3 {
+        font-size: 20px;
+    }
+    /*End Food CSS*/
+
+    /*Event CSS*/
+    .tv-eventcomming-block {
+        text-align: center;
+    }
+    .tv-eventcomming-date
+    {
+        margin:0 auto 20px auto;
+    }
+    .tv-eventcomming-details a {
+        font-size: 16px;
+    }
+    .tv-eventcomming-address {
+        font-size: 11px;
+    }
+    .tv-eventcomming-address::after {
+        left: 120px;
+    }
+    .tv-eventcomming-img {
+        margin-top: 20px;
+    }
+    /*End Event CSS*/
+
+    /*Chef CSS*/
+    .owl-next {
+        margin-top: 10px;
+        right: 0;
+        top: 100%;
+        transform: none;
+    }
+    .owl-prev {
+        left: 0;
+        margin-top: 10px;
+        top: 100%;
+        transform: none;
+    }
+    /*End Chef CSS*/
+
+    /*Menu CSS*/
+    .portfolio-filter button {
+        font-size: 11px;
+        margin: 0 0 8px 5px;
+        padding: 3px 10px;
+    }
+    .tv-menu-details .media {
+        text-align: center;
+    }
+    .tv-menu-details .media-body, .tv-menu-details .media-left, .tv-menu-details .media-right {
+        display: inline;
+    }
+    .tv-menu-details img {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .menu-price {
+        float: none;
+    }
+    .tv-gallery-media {
+        width: 100%;
+        display: inline-block;
+    }
+    .tv-gallery-details {
+        width: 100%;
+        display: inline-block;
+        padding: 50px 20px;
+    }
+
+    /*Testinominal CSS*/
+    .tv-testinominal-img {
+        display: inline-block;
+        width: 100%;
+    }
+    .tv-testinominal-details {
+        display: inline-block;
+        width: 100%;
+        padding:50px 0;
+    }
+    /*End Testinominal CSS*/
+
+    /*Event CSS*/
+    .tv-blog-details > h3 {
+        font-size: 15px;
+    }
+    /*End Event CSS*/
+    .tv-copyright > p {
+        text-align: center;
+    }
+    .tv-footer-menu {
+        text-align: center;
+    }
+    /*End Menu CSS*/
+
+    /*SubMenu CSS*/
+    .tv-submenu-details {
+        margin-bottom: 30px;
+    }
+    /*End SubMenu CSS*/
+
+    .tv-service-progressbar {
+        margin-top: 20px;
+    }
+    .tv-statistics-counter {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .tv-homemade-block {
+        margin-bottom: 20px;
+    }
+    .tv-question-details {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) 
+{
+    /*Header CSS*/
+    .tv-headertopwidget {
+        text-align: center;
+    }
+    .tv-booktable-button {
+        float:none;
+    }
+    .tv-header-social {
+        float: none;
+    }
+    .tv-booktable-button > a {
+        display: inline-block;
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        padding: 15px 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f75940;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #f75940;
+    }
+    /*End Header CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-info h1 {
+        font-size: 45px;
+    }
+    .tv-banner-info {
+        width: 100%;
+    }
+    /*End Banner CSS*/
+
+    /*Food CSS*/
+    .tv-eatery-button > a {
+        padding: 10px 14px;
+    }
+    /*    .tv-section-title h3::after {
+            width: 25px;
+        }
+        .tv-section-title h3::before {
+            width: 25px;
+        }
+        .tv-section-title h3 {
+            font-size: 25px;
+        }
+        .tv-section-title > p{
+            font-size: 15px;
+        }*/
+    .tv-service-content {
+        text-align: center;
+    }
+    .tv-service-img {
+        margin-bottom: 30px;
+    }
+    .tv-find-block {
+        margin-bottom: 20px;
+    }
+    /*End Food CSS*/
+
+    /*Event CSS*/
+    .tv-eventcomming-block {
+        text-align: center;
+    }
+    .tv-eventcomming-date
+    {
+        margin:0 auto 20px auto;
+    }
+    .tv-eventcomming-details a {
+        font-size: 16px;
+    }
+    .tv-eventcomming-address {
+        font-size: 11px;
+    }
+    .tv-eventcomming-address::after {
+        left:40%;
+    }
+    .tv-eventcomming-address::after {
+        width: 90px;
+    }
+    .tv-eventcomming-img {
+        margin-top: 20px;
+    }
+    /*End Event CSS*/
+
+    /*Chef CSS*/
+    .owl-next {
+        margin-top: 10px;
+        right: 0;
+        top: 100%;
+        transform: none;
+    }
+    .owl-prev {
+        left: 0;
+        margin-top: 10px;
+        top: 100%;
+        transform: none;
+    }
+    /*End Chef CSS*/
+
+    /*Menu CSS*/
+    .portfolio-filter button {
+        font-size: 11px;
+        margin: 0 0 8px 5px;
+        padding: 3px 10px;
+    }
+    .tv-menu-details .media {
+        text-align: center;
+    }
+    .tv-menu-details .media-body, .tv-menu-details .media-left, .tv-menu-details .media-right {
+        display: inline;
+    }
+    .tv-menu-details img {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .menu-price {
+        float: none;
+    }
+    .tv-gallery-media {
+        width: 100%;
+        display: inline-block;
+    }
+    .tv-gallery-details {
+        width: 100%;
+        display: inline-block;
+        padding: 50px 20px;
+    }
+    /*End Menu CSS*/
+
+    /*Testinominal CSS*/
+    .tv-testinominal-img {
+        display: inline-block;
+        width: 100%;
+    }
+    .tv-testinominal-details {
+        display: inline-block;
+        width: 100%;
+        padding:50px 0;
+    }
+    /*End Testinominal CSS*/
+
+    /*Event CSS*/
+    /*End Event CSS*/
+    .tv-copyright > p {
+        text-align: center;
+    }
+    .tv-footer-menu {
+        text-align: center;
+    }
+    .tv-copyright {
+        float: none;
+    }
+    .tv-gallery-subtitle {
+        width: 40%;
+    }
+    /*SubMenu CSS*/
+    .tv-submenu-details {
+        margin-bottom: 30px;
+    }
+    /*End SubMenu CSS*/
+
+    .tv-submenu-title {
+        line-height: 30px;
+    }
+    .tv-submenu-singleitem {
+        text-align: center;
+    }
+    .tv-submenu-price {
+        float:none;
+    }
+    .tv-service-progressbar {
+        margin-top: 20px;
+    }
+    .tv-statistics-counter {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .tv-homemade-block {
+        margin-bottom: 20px;
+    }
+    .tv-question-details {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 400px) 
+{
+    /*Header CSS*/
+    .tv-headertopwidget {
+        text-align: center;
+    }
+    .tv-booktable-button {
+        float:none;
+    }
+    .tv-header-social {
+        float: none;
+    }
+    .tv-booktable-button > a {
+        display: inline-block;
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        padding: 15px 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f75940;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #f75940;
+    }
+    /*End Header CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-info h1 {
+        font-size: 45px;
+    }
+    .tv-banner-info {
+        width: 100%;
+    }
+    /*End Banner CSS*/
+
+    /*Food CSS*/
+    .tv-eatery-button > a {
+        padding: 10px 14px;
+    }
+    .tv-section-title h3::after {
+        width: 25px;
+    }
+    .tv-section-title h3::before {
+        width: 25px;
+    }
+    .tv-section-title h3 {
+        font-size: 17px;
+    }
+    .tv-section-title > p{
+        font-size: 13px;
+    }
+    .tv-service-content {
+        text-align: center;
+    }
+    .tv-service-img {
+        margin-bottom: 30px;
+    }
+    .tv-find-block {
+        margin-bottom: 20px;
+    }
+    .tv-find-details > h3 {
+        font-size: 20px;
+    }
+    /*End Food CSS*/
+
+    /*Event CSS*/
+    .tv-eventcomming-block {
+        text-align: center;
+    }
+    .tv-eventcomming-date
+    {
+        margin:0 auto 20px auto;
+    }
+    .tv-eventcomming-details a {
+        font-size: 16px;
+    }
+    .tv-eventcomming-address {
+        font-size: 11px;
+    }
+    .tv-eventcomming-address::after {
+        left: 120px;
+    }
+    .tv-eventcomming-img {
+        margin-top: 20px;
+    }
+    /*End Event CSS*/
+
+    /*Chef CSS*/
+    .owl-next {
+        margin-top: 10px;
+        right: 0;
+        top: 100%;
+        transform: none;
+    }
+    .owl-prev {
+        left: 0;
+        margin-top: 10px;
+        top: 100%;
+        transform: none;
+    }
+    /*End Chef CSS*/
+
+    /*Menu CSS*/
+    .portfolio-filter button {
+        font-size: 11px;
+        margin: 0 0 8px 5px;
+        padding: 3px 10px;
+    }
+    .tv-menu-details .media {
+        text-align: center;
+    }
+    .tv-menu-details .media-body, .tv-menu-details .media-left, .tv-menu-details .media-right {
+        display: inline;
+    }
+    .tv-menu-details img {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .menu-price {
+        float: none;
+    }
+    .tv-gallery-media {
+        width: 100%;
+        display: inline-block;
+    }
+    .tv-gallery-details {
+        width: 100%;
+        display: inline-block;
+        padding: 50px 20px;
+    }
+
+    /*Testinominal CSS*/
+    .tv-testinominal-img {
+        display: inline-block;
+        width: 100%;
+    }
+    .tv-testinominal-details {
+        display: inline-block;
+        width: 100%;
+        padding:50px 0;
+    }
+    /*End Testinominal CSS*/
+
+    /*Event CSS*/
+    .tv-blog-details > h3 {
+        font-size: 15px;
+    }
+    /*End Event CSS*/
+    .tv-copyright > p {
+        text-align: center;
+    }
+    .tv-footer-menu {
+        text-align: center;
+    }
+    /*End Menu CSS*/
+
+    .tv-blog-postmeta {
+        font-size: 12px;
+    }
+    /*SubMenu CSS*/
+    .tv-submenu-details {
+        margin-bottom: 30px;
+    }
+    /*End SubMenu CSS*/
+
+    .tv-submenu-title {
+        line-height: 30px;
+    }
+    .tv-submenu-singleitem {
+        text-align: center;
+    }
+    .tv-submenu-price {
+        float:none;
+    }
+    .tv-service-progressbar {
+        margin-top: 20px;
+    }
+    .tv-statistics-counter {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .tv-homemade-block {
+        margin-bottom: 20px;
+    }
+    .tv-question-details {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
